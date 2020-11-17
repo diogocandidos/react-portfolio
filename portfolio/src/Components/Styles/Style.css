@@ -1,0 +1,208 @@
+  /*about me page*/
+  html, body {
+    height:100%; margin: 0;
+  }
+  
+  body {
+      font-family: 'lucida console', 'Helvetica Neue', Helvetica, sans-serif;
+      font-size: 20px;
+      color: #777;
+      line-height: 34px;
+      background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQUh9u104ViUb4YRgFPiimwJVbGh2o36cahSw&usqp=CAU");
+      display: flex;
+    flex-direction: column;
+  }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .header {
+      margin-bottom: 30px;
+      border: 1px solid #ddd;
+      background: white;
+    }
+    
+    #logo {
+      width: 500px;
+      height: 70px;
+      font-family: 'lucida console', Times New Roman, serif;
+      text-align: center;
+      line-height: 70px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 35px;
+      text-decoration: none;
+      background:	#5F9EA0;
+    }
+    
+    .acollpse .navbar-collapse {  
+      display: flex
+    }
+  
+    .container {
+      width: 90%;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    
+    
+    [class^="col-xs"] {
+      background: white;
+    }
+    
+    h1,
+    h2,
+    h3 {
+      font-family: 'lucida console', Times New Roman, serif;
+      color:	#5F9EA0;
+      font-weight: 700;
+    }
+    
+    h1 {
+      padding-bottom: 20px;
+      font-size: 30px;
+      line-height: 49px;
+      border-bottom: 3px solid #ddd;
+    }
+    
+    h2,
+    h3 {
+      font-size: 22px;
+    }
+  
+    h3,
+    .sidebar h2 {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      line-height: 22px;
+      border-bottom: 3px solid #ddd;
+    }
+    
+  .nav-link {
+    font-family: 'lucida console', Times New Roman, serif;
+    font-size: 22px;
+    color: #777;
+  }
+  
+    .main-section {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin: 0 0 40px 0;
+      background: white;
+    }
+    
+    .image {
+      width: 50%;
+      height: auto;
+      margin-top: 10px;
+      margin-right: 25px;
+      float: left;
+    }
+  
+    #link-box {height: 260px;}
+  
+    .social {
+      width: 23%;
+      margin-left: 10px;
+      padding-bottom: 10px;
+    }
+    
+    /*portfolio page*/
+    
+    ul {
+      list-style-type: none;
+    }
+    
+    .work {
+      position: relative;
+      width: 46%;
+      overflow: auto;
+      float: left;
+      margin: 20px 0 25px;
+    }
+    
+    .work:nth-child(even) {
+      margin-right: 40px;
+    }
+    
+    .work img {
+      width: 100%;
+      border: 0 none;
+      opacity: .8;
+    }
+    
+    .work h3 {
+      position: absolute;
+      bottom: 20px;
+      margin-bottom: 0;
+      padding: 15px;
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      line-height: 30px;
+      font-weight: 300;
+      background:	#5F9EA0;
+      border-bottom: 0;
+    }
+    
+    /*contact page*/
+    
+    #contact-form ul {
+      margin-bottom: 20px;
+    }
+    
+    #contact-form li {
+      margin-bottom: 10px;
+    }
+    
+    label,
+    input[type=text],
+    input[type=email],
+    textarea {
+      display: block;
+      width: 100%;
+    }
+    
+    input[type=text],
+    input[type=email],
+    textarea {
+      height: 35px;
+      padding: 0 10px;
+      font-size: 14px;
+      border: 1px solid #ddd;
+    }
+    
+    .col-xs-4 {width: 33.33%;
+    }
+  
+  
+    .col-xs-offset-1 { margin-left: 8.3333%;
+    }
+  
+    textarea {
+      height: 200px;
+    }
+    
+    input[type=submit] {
+      padding: 10px 30px;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+      background: #5F9EA0;
+      border: 0 none;
+    }
+    
+    footer {
+      height: 80px;
+      margin-top: auto;
+      padding: 20px 0;
+      clear: both;
+      color: #fff;
+      color: #ccc;
+      font-size: 12px;
+      text-align: center;
+      background: #666;
+      border-top: 8px solid	#5F9EA0;
+  }
+  
